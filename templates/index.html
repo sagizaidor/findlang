@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Open+Sans&family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <title>התושפתן - ככה מוצאים שפות</title>
+    </head>
+    <body>
+        <header>
+            <div id="mainheader">
+                <img class='icons' src="{{ url_for('static', filename='images/book-cover (1).svg') }}" id="book" title="from game-icons.net" alt="Book">
+                <h1>התו<strong>שפת</strong>ן</h1>
+                <img class='icons' src="{{ url_for('static', filename='images/lips.svg') }}" id="lips" title="from game-icons.net" alt="lips">
+            </div>
+            <div id='subheader'>
+                <h2>ככה מוצאים שפות</h2>
+            </div>
+        </header>
+        <section>
+            <h3>טסים לחו"ל? חושבים ללמוד שפה חדשה? פותחים סניף חדש של העסק במדינה אחרת? באתר זה תוכלו לגלות איזה שפה מדברים במדינה אליה אתם מכוונים, או באיזה מהמדינות מדברים את השפה עליה אתם חושבים, אז קדימה, צאו לדרך!</h3>  
+        </section>
+        <main>
+            <form method="post" action="{{ url_for('find') }}"">
+                <div>
+                    <div class="lookingfor">
+                        <label for="where">
+                            באיזה מדינה מדברים:
+                            <input type="text" id="where">
+                            ?
+                        </label>
+                        <input type="submit" value="מצא">
+                    </div>
+                    <div class='res-box'>
+
+                        {% if resWhere %}
+                            {% if resWhere == 'LangNotFound' %}
+                                סליחה, אבל לא הצלחנו למצוא את השפה המדוברת. בטוח שיש כזו?
+                            {% else %}
+                                {% for country in resWhere %}
+                                    {% if '&#39;' in country %}
+                                        {{ country.replace('&#39;', "'") }}
+                                    {% else %}
+                                        {{ country }}<br>
+                                    {% endif %}
+                                {% endfor %}
+                            {% endif %}
+                        {% endif %}
+                    </div>
+                </div>
+                <div>
+                    <div class="lookingfor">
+                        <label for="which">
+                            איזו שפה מדברים ב:
+                            <input type="text" id="which">
+                            ?
+                        </label>
+                        <input type="submit" value="מצא">
+                    </div>
+                    <div class="res-box">
+                        {{resWhich}}
+                    </div>
+                </div>
+            </form>
+        </main>
+        <div id='footer'>
+            <p>Ⓒכל הזכויות שמורות לשגיא</p>
+        </div>
+    </body>
+</html>

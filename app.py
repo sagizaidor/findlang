@@ -1,8 +1,6 @@
-import requests
+import json
 from flask import Flask, request, render_template
 
-
-URL = 'http://countryapi.gear.host/v1/Country/getCountries?p'
 
 def convert_lang_to_code(lang, res='code'):
     with open('lang&code.csv', 'r') as lang_code:
@@ -21,29 +19,23 @@ def convert_lang_to_code(lang, res='code'):
                     return language
 
 def get_contries(lang_or_name, by_name=False):
+    lang_or_name = lang_or_name.capitalize()
+    with open('countries.json', encoding='utf-8') as contries:
+        data = json.load(contries)
+    countries = data['Response']
     if by_name:
-        params = 'Name=' + lang_or_name
+        for country in countries:
+            if country['Name'] == lang_or_name:
+                return convert_lang_to_code(country['NativeLanguage'], res='language')
+        return 'סליחה, אבל לא הצלחנו למצוא את המדינה. האם הקלדת נכון את שם המדינה? או שרשמת באנגלית?'
     else:
-        lang = lang_or_name
-        code = convert_lang_to_code(lang)
-        try:
-            params = 'NativeLanguage=' + code
-        except TypeError:
-            return 'LangNotFound'
-    url = URL + params
-    res = requests.get(url).json()
-    if by_name:
-        try:
-            code = res['Response'][0]['NativeLanguage']
-        except IndexError:
-            return 'אסליחה, אבל לא הצלחנו למצוא את המדינה. האם הקלדת נכון את שם המדינה? או שרשמת באנגלית?'
-        lang = convert_lang_to_code(code, res='language')
-        return lang
-    contries = []
-    for country in res['Response']:
-            contries.append(country['Name'])
+        code = convert_lang_to_code(lang_or_name, res='code')
+        res = []
+        for country in countries:
+            if country['NativeLanguage'] == code:
+                res.append(country['Name'])
+        return res
 
-    return contries
 
 app = Flask(__name__)
 

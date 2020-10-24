@@ -11,7 +11,9 @@ def convert_lang_to_code(lang, res='code'):
             try:
                 code, language = lang_code.readline().split(',')
                 language = language.split(' ')[0]
+                print(language)
                 code = code.split(' ')[0]
+                print(code)
             except ValueError:
                 return
             if res == 'code':
@@ -37,20 +39,16 @@ def get_contries(lang_or_name, by_name=False):
             return 'LangNotFound'
     url = URL + params
     res = requests.get(url).json()
-    print(res)
     if by_name:
         try:
             code = res['Response'][0]['NativeLanguage']
-            print(code)
         except IndexError:
             return 'סליחה, אבל לא הצלחנו למצוא את המדינה. האם הקלדת נכון את שם המדינה?'
         lang = convert_lang_to_code(code, res='language')
-        print(lang)
         return translate(lang, 'he')
     contries = []
     for country in res['Response']:
             contries.append(translate(country['Name'], 'he'))
-    print(contries)
     return contries
 
 app = Flask(__name__)

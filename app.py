@@ -45,6 +45,7 @@ def get_contries(lang_or_name, by_name=False):
         except IndexError:
             return 'סליחה, אבל לא הצלחנו למצוא את המדינה. האם הקלדת נכון את שם המדינה?'
         lang = convert_lang_to_code(code, res='language')
+        print(lang)
         return translate(lang, 'he')
     contries = []
     for country in res['Response']:
@@ -65,6 +66,7 @@ def find():
     whereTheySpeak = request.form['whereTheySpeak']
     if whereTheySpeak:
         resWhere = get_contries(whereTheySpeak)
+        print(resWere)
     whichLangAt = request.form['whichLangAt']
     if whichLangAt:
         resWhich = get_contries(whichLangAt, by_name=True)

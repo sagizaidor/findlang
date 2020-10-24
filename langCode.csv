@@ -20,12 +20,12 @@ apa,Apache languages
 ara,Arabic
 arg,Aragonese
 arm* / hye,Armenian
-arn,Mapudungun; Mapuche
+arn,Mapudungun;Â Mapuche
 arp,Arapaho
 art,Artificial languages
 arw,Arawak
 asm,Assamese
-ast,Asturian; Bable; Leonese; Asturleonese
+ast,Asturian;Â Bable;Â Leonese;Â Asturleonese
 ath,Athapascan languages
 aus,Australian languages
 ava,Avaric
@@ -42,7 +42,7 @@ ban,Balinese
 baq* / eus,Basque
 bas,Basa
 bat,Baltic languages
-bej,Beja; Bedawiyet
+bej,Beja;Â Bedawiyet
 bel,Belarusian
 bem,Bemba
 ben,Bengali
@@ -50,11 +50,11 @@ ber,Berber languages
 bho,Bhojpuri
 bih,Bihari languages
 bik,Bikol
-bin,Bini; Edo
+bin,Bini;Â Edo
 bis,Bislama
 bla,Siksika
 bnt,Bantu languages
-bod / tib*,Tibetan
+bodÂ / tib*,Tibetan
 bos,Bosnian
 bra,Braj
 bre,Breton
@@ -67,11 +67,11 @@ byn,Blin; Bilin
 cad,Caddo
 cai,Central American Indian languages
 car,Galibi Carib
-cat,Catalan; Valencian
+cat,Catalan;Â Valencian
 cau,Caucasian languages
 ceb,Cebuano
 cel,Celtic languages
-ces / cze*,Czech
+cesÂ / cze*,Czech
 cha,Chamorro
 chb,Chibcha
 che,Chechen
@@ -81,9 +81,9 @@ chk,Chuukese
 chm,Mari
 chn,Chinook jargon
 cho,Choctaw
-chp,Chipewyan; Dene Suline
+chp,Chipewyan;Â Dene Suline
 chr,Cherokee
-chu,Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic
+chu,ChurchÂ Slavic;Â OldÂ Slavonic;Â ChurchÂ Slavonic;Â OldÂ Bulgarian;Â OldÂ ChurchÂ Slavonic
 chv,Chuvash
 chy,Cheyenne
 cmc,Chamic languages
@@ -91,22 +91,22 @@ cnr,Montenegrin
 cop,Coptic
 cor,Cornish
 cos,Corsican
-cpe,Creoles and pidgins English based
-cpf,Creoles and pidgins French-based
-cpp,Creoles and pidgins Portuguese-based
+cpe,CreolesÂ andÂ pidgins English based
+cpf,CreolesÂ and pidgins French-based
+cpp,CreolesÂ and pidgins Portuguese-based
 cre,Cree
-crh,Crimean Tatar; Crimean Turkish
-crp,Creoles and pidgins
+crh,Crimean Tatar;Â Crimean Turkish
+crp,CreolesÂ andÂ pidgins
 csb,Kashubian
 cus,Cushitic languages
-cym / wel*,Welsh
+cymÂ / wel*,Welsh
 cze* / ces,Czech
 dak,Dakota
 dan,Danish
 dar,Dargwa
 day,Land Dayak languages
 del,Delaware
-deu / ger*,German
+deuÂ / ger*,German
 dgr,Dogrib
 din,Dinka
 div,Divehi; Dhivehi; Maldivian
@@ -114,33 +114,33 @@ doi,Dogri
 dra,Dravidian languages
 dsb,Lower Sorbian
 dua,Duala
-dut* / nld,Dutch; Flemish
+dut* / nld,Dutch;Â Flemish
 dyu,Dyula
 dzo,Dzongkha
 efi,Efik
 egy,Egyptian (Ancient)
 eka,Ekajuk
-ell / gre*,Greek
+ellÂ / gre*,Greek
 elx,Elamite
 eng,English
-enm,English Middle (1100–1500)
+enm,English MiddleÂ (1100â€“1500)
 epo,Esperanto
 est,Estonian
-eus / baq*,Basque
+eusÂ / baq*,Basque
 ewe,Ewe
 ewo,Ewondo
 fan,Fang
 fao,Faroese
-fas / per*,Persian
+fasÂ / per*,Persian
 fat,Fanti
 fij,Fijian
-fil,Filipino; Pilipino
+fil,Filipino;Â Pilipino
 fin,Finnish
 fiu,Finno-Ugrian languages
 fon,Fon
-fra / fre*,French
-frm,French Middle (ca. 1400–1600)
-fro,French Old (842–ca. 1400)
+fraÂ / fre*,French
+frm,French MiddleÂ (ca. 1400â€“1600)
+fro,French OldÂ (842â€“ca. 1400)
 frr,Northern Frisian
 frs,Eastern Frisian
 fry,Western Frisian
@@ -154,20 +154,20 @@ geo* / kat,Georgian
 ger* / deu,German
 gez,Geez
 gil,Gilbertese
-gla,Gaelic; Scottish Gaelic
+gla,Gaelic;Â Scottish Gaelic
 gle,Irish
 glg,Galician
 glv,Manx
-gmh,German Middle High (ca. 1050–1500)
-goh,German Old High (ca. 750–1050)
+gmh,German Middle HighÂ (ca. 1050â€“1500)
+goh,German Old HighÂ (ca. 750â€“1050)
 gon,Gondi
 gor,Gorontalo
 got,Gothic
 grb,Grebo
-grc,Greek Ancient (to 1453)
-gre* / ell,Greek Modern (1453–)
+grc,Greek AncientÂ (to 1453)
+gre* / ell,Greek ModernÂ (1453â€“)
 grn,Guarani
-gsw,Swiss German; Alemannic; Alsatian
+gsw,Swiss German;Â Alemannic;Â Alsatian
 guj,Gujarati
 gwi,Gwich'in
 hai,Haida
@@ -177,26 +177,26 @@ haw,Hawaiian
 heb,Hebrew
 her,Herero
 hil,Hiligaynon
-him,Himachali languages; Pahari languages
+him,HimachaliÂ languages; PahariÂ languages
 hin,Hindi
 hit,Hittite
-hmn,Hmong; Mong
+hmn,Hmong;Â Mong
 hmo,Hiri Motu
 hrv,Croatian
 hsb,Upper Sorbian
 hun,Hungarian
 hup,Hupa
-hye / arm*,Armenian
+hyeÂ /Â arm*,Armenian
 iba,Iban
 ibo,Igbo
 ice* / isl,Icelandic
 ido,Ido
-iii,Sichuan Yi; Nuosu
+iii,Sichuan Yi;Â Nuosu
 ijo,Ijo languages
 iku,Inuktitut
 ile,Interlingue; Occidental
 ilo,Iloko
-ina,Interlingua (International Auxiliary Language Association)
+ina,InterlinguaÂ (International Auxiliary Language Association)
 inc,Indic languages
 ind,Indonesian
 ine,Indo-European languages
@@ -204,7 +204,7 @@ inh,Ingush
 ipk,Inupiaq
 ira,Iranian languages
 iro,Iroquoian languages
-isl / ice*,Icelandic
+islÂ / ice*,Icelandic
 ita,Italian
 jav,Javanese
 jbo,Lojban
@@ -213,13 +213,13 @@ jpr,Judeo-Persian
 jrb,Judeo-Arabic
 kaa,Kara-Kalpak
 kab,Kabyle
-kac,Kachin; Jingpho
-kal,Kalaallisut; Greenlandic
+kac,Kachin;Â Jingpho
+kal,Kalaallisut;Â Greenlandic
 kam,Kamba
 kan,Kannada
 kar,Karen languages
 kas,Kashmiri
-kat / geo*,Georgian
+katÂ / geo*,Georgian
 kau,Kanuri
 kaw,Kawi
 kaz,Kazakh
@@ -227,10 +227,10 @@ kbd,Kabardian
 kha,Khasi
 khi,Khoisan languages
 khm,Central Khmer
-kho,Khotanese; Sakan
-kik,Kikuyu; Gikuyu
+kho,Khotanese;Â Sakan
+kik,Kikuyu;Â Gikuyu
 kin,Kinyarwanda
-kir,Kirghiz; Kyrgyz
+kir,Kirghiz;Â Kyrgyz
 kmb,Kimbundu
 kok,Konkani
 kom,Komi
@@ -242,7 +242,7 @@ krc,Karachay-Balkar
 krl,Karelian
 kro,Kru languages
 kru,Kurukh
-kua,Kuanyama; Kwanyama
+kua,Kuanyama;Â Kwanyama
 kum,Kumyk
 kur,Kurdish
 kut,Kutenai
@@ -253,12 +253,12 @@ lao,Lao
 lat,Latin
 lav,Latvian
 lez,Lezghian
-lim,Limburgan; Limburger; Limburgish
+lim,Limburgan;Â Limburger;Â Limburgish
 lin,Lingala
 lit,Lithuanian
 lol,Mongo
 loz,Lozi
-ltz,Luxembourgish; Letzeburgesch
+ltz,Luxembourgish;Â Letzeburgesch
 lua,Luba-Lulua
 lub,Luba-Katanga
 lug,Ganda
@@ -266,7 +266,7 @@ lui,Luiseno
 lun,Lunda
 luo,Luo (Kenya and Tanzania)
 lus,Lushai
-mac* / mkd,Macedonian
+mac*Â /Â mkd,Macedonian
 mad,Madurese
 mag,Magahi
 mah,Marshallese
@@ -282,11 +282,11 @@ may* / msa,Malay
 mdf,Moksha
 mdr,Mandar
 men,Mende
-mga,Irish Middle (900–1200)
-mic,Mi'kmaq; Micmac
+mga,Irish MiddleÂ (900â€“1200)
+mic,Mi'kmaq;Â Micmac
 min,Minangkabau
 mis,Uncoded languages
-mkd / mac*,Macedonian
+mkdÂ / mac*,Macedonian
 mkh,Mon-Khmer languages
 mlg,Malagasy
 mlt,Maltese
@@ -296,61 +296,61 @@ mno,Manobo languages
 moh,Mohawk
 mon,Mongolian
 mos,Mossi
-mri / mao*,Maori
-msa / may*,Malay
+mriÂ / mao*,Maori
+msaÂ / may*,Malay
 mul,Multiple languages
 mun,Munda languages
 mus,Creek
 mwl,Mirandese
 mwr,Marwari
-mya / bur*,Burmese
+myaÂ / bur*,Burmese
 myn,Mayan languages
 myv,Erzya
 nah,Nahuatl languages
 nai,North American Indian languages
 nap,Neapolitan
 nau,Nauru
-nav,Navajo; Navaho
-nbl,Ndebele South; South Ndebele
-nde,Ndebele North; North Ndebele
+nav,Navajo;Â Navaho
+nbl,Ndebele South;Â South Ndebele
+nde,Ndebele North;Â North Ndebele
 ndo,Ndonga
 nds,Low German; Low Saxon; German Low; Saxon Low
 nep,Nepali
-new,Nepal Bhasa; Newari
+new,Nepal Bhasa;Â Newari
 nia,Nias
 nic,Niger-Kordofanian languages
 niu,Niuean
-nld / dut*,Dutch; Flemish
+nldÂ / dut*,Dutch;Â Flemish
 nno,Norwegian Nynorsk; Nynorsk Norwegian
 nob,Bokm?l Norwegian; Norwegian Bokm?l
 nog,Nogai
 non,Norse Old
 nor,Norwegian
 nqo,N'Ko
-nso,Pedi; Sepedi; Northern Sotho
+nso,Pedi;Â Sepedi;Â Northern Sotho
 nub,Nubian languages
-nwc,Classical Newari; Old Newari; Classical Nepal Bhasa
-nya,Chichewa; Chewa; Nyanja
+nwc,ClassicalÂ Newari;Â OldÂ Newari;Â ClassicalÂ NepalÂ Bhasa
+nya,Chichewa;Â Chewa;Â Nyanja
 nym,Nyamwezi
 nyn,Nyankole
 nyo,Nyoro
 nzi,Nzima
-oci,Occitan (post 1500)
+oci,OccitanÂ (post 1500)
 oji,Ojibwa
 ori,Oriya
 orm,Oromo
 osa,Osage
-oss,Ossetian; Ossetic
-ota,Turkish Ottoman (1500–1928)
+oss,Ossetian;Â Ossetic
+ota,Turkish OttomanÂ (1500â€“1928)
 oto,Otomian languages
 paa,Papuan languages
 pag,Pangasinan
 pal,Pahlavi
-pam,Pampanga; Kapampangan
-pan,Panjabi; Punjabi
+pam,Pampanga;Â Kapampangan
+pan,Panjabi;Â Punjabi
 pap,Papiamento
 pau,Palauan
-peo,Persian Old (ca. 600–400 B.C.)
+peo,Persian OldÂ (ca. 600â€“400 B.C.)
 per* / fas,Persian
 phi,Philippine languages
 phn,Phoenician
@@ -359,19 +359,19 @@ pol,Polish
 pon,Pohnpeian
 por,Portuguese
 pra,Prakrit languages
-pro,Proven?al Old (to 1500); Old Occitan (to 1500)
-pus,Pushto; Pashto
+pro,Proven?al OldÂ (to 1500);Â OldÂ OccitanÂ (toÂ 1500)
+pus,Pushto;Â Pashto
 qaa-qtz,Reserved for local use
 que,Quechua
 raj,Rajasthani
 rap,Rapanui
-rar,Rarotongan; Cook Islands Maori
+rar,Rarotongan;Â Cook Islands Maori
 roa,Romance languages
 roh,Romansh
 rom,Romany
-ron / rum*,Romanian; Moldavian; Moldovan
+ronÂ / rum*,Romanian;Â Moldavian;Â Moldovan
 run,Rundi
-rup,Aromanian; Arumanian; Macedo-Romanian
+rup,Aromanian;Â Arumanian;Â Macedo-Romanian
 rus,Russian
 sad,Sandawe
 sag,Sango
@@ -386,15 +386,15 @@ scn,Sicilian
 sco,Scots
 sel,Selkup
 sem,Semitic languages
-sga,Irish Old (to 900)
+sga,Irish OldÂ (to 900)
 sgn,Sign Languages
 shn,Shan
 sid,Sidamo
-sin,Sinhala; Sinhalese
+sin,Sinhala;Â Sinhalese
 sio,Siouan languages
 sit,Sino-Tibetan languages
 sla,Slavic languages
-slk / slo*,Slovak
+slkÂ / slo*,Slovak
 slv,Slovenian
 sma,Southern Sami
 sme,Northern Sami
@@ -410,8 +410,8 @@ sog,Sogdian
 som,Somali
 son,Songhai languages
 sot,Sotho Southern
-spa,Spanish; Castilian
-sqi / alb*,Albanian
+spa,Spanish;Â Castilian
+sqiÂ / alb*,Albanian
 srd,Sardinian
 srn,Sranan Tongo
 srp,Serbian
@@ -442,7 +442,7 @@ tig,Tigre
 tir,Tigrinya
 tiv,Tiv
 tkl,Tokelau
-tlh,Klingon; tlhIngan-Hol
+tlh,Klingon;Â tlhIngan-Hol
 tli,Tlingit
 tmh,Tamashek
 tog,Tonga (Nyasa)
@@ -461,7 +461,7 @@ twi,Twi
 tyv,Tuvinian
 udm,Udmurt
 uga,Ugaritic
-uig,Uighur; Uyghur
+uig,Uighur;Â Uyghur
 ukr,Ukrainian
 umb,Umbundu
 und,Undetermined
@@ -480,7 +480,7 @@ wel* / cym,Welsh
 wen,Sorbian languages
 wln,Walloon
 wol,Wolof
-xal,Kalmyk; Oirat
+xal,Kalmyk;Â Oirat
 xho,Xhosa
 yao,Yao
 yap,Yapese
@@ -488,13 +488,13 @@ yid,Yiddish
 yor,Yoruba
 ypk,Yupik languages
 zap,Zapotec
-zbl,Blissymbols; Blissymbolics; Bliss
+zbl,Blissymbols;Â Blissymbolics;Â Bliss
 zen,Zenaga
 zgh,Standard Moroccan Tamazight
-zha,Zhuang; Chuang
-zho / chi*,Chinese
+zha,Zhuang;Â Chuang
+zhoÂ / chi*,Chinese
 znd,Zande languages
 zul,Zulu
 zun,Zuni
 zxx,No linguistic content; Not applicable
-zza,Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki
+zza,Zaza;Â Dimili;Â Dimli;Â Kirdki;Â Kirmanjki;Â Zazaki

@@ -1,7 +1,6 @@
 import requests
 from flask import Flask, request, render_template
-from translate import Translate
-import os
+
 
 URL = 'http://countryapi.gear.host/v1/Country/getCountries?p'
 
@@ -21,15 +20,11 @@ def convert_lang_to_code(lang, res='code'):
                 if lang in code:
                     return language
 
-def translate(text, target):
-    return Translate(text, target).output
-
-
 def get_contries(lang_or_name, by_name=False):
     if by_name:
         params = 'Name=' + lang_or_name
     else:
-        lang = lang_or_name, 'en'
+        lang = lang_or_name
         code = convert_lang_to_code(lang)
         try:
             params = 'NativeLanguage=' + code
@@ -41,12 +36,12 @@ def get_contries(lang_or_name, by_name=False):
         try:
             code = res['Response'][0]['NativeLanguage']
         except IndexError:
-            return 'סליחה, אבל לא הצלחנו למצוא את המדינה. האם הקלדת נכון את שם המדינה?'
+            return 'אסליחה, אבל לא הצלחנו למצוא את המדינה. האם הקלדת נכון את שם המדינה? או שרשמת באנגלית?'
         lang = convert_lang_to_code(code, res='language')
         return lang
     contries = []
     for country in res['Response']:
-            contries.append(country['Name']))
+            contries.append(country['Name'])
 
     return contries
 
@@ -60,10 +55,10 @@ def result():
 def find():
     resWhere = ''
     resWhich = ''
-    whereTheySpeak = request.form['whereTheySpeak']
+    whereTheySpeak = request.form['whereTheySpeak'].capitalize()
     if whereTheySpeak:
         resWhere = get_contries(whereTheySpeak)
-    whichLangAt = request.form['whichLangAt']
+    whichLangAt = request.form['whichLangAt'].capitalize()
     if whichLangAt:
         resWhich = get_contries(whichLangAt, by_name=True)
     return render_template('index.html', resWhere=resWhere, resWhich=resWhich)

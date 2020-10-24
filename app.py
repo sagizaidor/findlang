@@ -41,6 +41,7 @@ def get_contries(lang_or_name, by_name=False):
     if by_name:
         try:
             code = res['Response'][0]['NativeLanguage']
+            print(code)
         except IndexError:
             return 'סליחה, אבל לא הצלחנו למצוא את המדינה. האם הקלדת נכון את שם המדינה?'
         lang = convert_lang_to_code(code, res='language')

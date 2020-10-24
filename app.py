@@ -50,7 +50,7 @@ def get_contries(lang_or_name, by_name=False):
     contries = []
     for country in res['Response']:
             contries.append(translate(country['Name'], 'he'))
-
+    print(contries)
     return contries
 
 app = Flask(__name__)
@@ -66,7 +66,6 @@ def find():
     whereTheySpeak = request.form['whereTheySpeak']
     if whereTheySpeak:
         resWhere = get_contries(whereTheySpeak)
-        print(resWere)
     whichLangAt = request.form['whichLangAt']
     if whichLangAt:
         resWhich = get_contries(whichLangAt, by_name=True)

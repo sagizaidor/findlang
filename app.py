@@ -37,6 +37,7 @@ def get_contries(lang_or_name, by_name=False):
             return 'LangNotFound'
     url = URL + params
     res = requests.get(url).json()
+    print(res)
     if by_name:
         try:
             code = res['Response'][0]['NativeLanguage']

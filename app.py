@@ -6,9 +6,9 @@ import os
 URL = 'http://countryapi.gear.host/v1/Country/getCountries?p'
 
 def convert_lang_to_code(lang, res='code'):
-    print(hi)
+    print('hi')
     with open('langCode.csv', 'r') as lang_code:
-        print(ho)
+        print('ho')
         for _ in range(500):
             try:
                 code, language = lang_code.readline().split(',')

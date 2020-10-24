@@ -27,9 +27,9 @@ def translate(text, target):
 
 def get_contries(lang_or_name, by_name=False):
     if by_name:
-        params = 'Name=' + translate(lang_or_name, 'en')
+        params = 'Name=' + lang_or_name
     else:
-        lang = translate(lang_or_name, 'en').split(' ')[0]
+        lang = lang_or_name, 'en'
         code = convert_lang_to_code(lang)
         try:
             params = 'NativeLanguage=' + code
@@ -43,10 +43,10 @@ def get_contries(lang_or_name, by_name=False):
         except IndexError:
             return 'סליחה, אבל לא הצלחנו למצוא את המדינה. האם הקלדת נכון את שם המדינה?'
         lang = convert_lang_to_code(code, res='language')
-        return translate(lang, 'he')
+        return lang
     contries = []
     for country in res['Response']:
-            contries.append(translate(country['Name'], 'he'))
+            contries.append(country['Name']))
 
     return contries
 

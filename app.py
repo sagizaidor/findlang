@@ -1,6 +1,7 @@
 import requests
 from flask import Flask, request, render_template
 from translate import Translate
+import os
 
 URL = 'http://countryapi.gear.host/v1/Country/getCountries?p'
 
@@ -28,7 +29,7 @@ def get_contries(lang_or_name, by_name=False):
     if by_name:
         params = 'Name=' + translate(lang_or_name, 'en')
     else:
-        lang = translate(lang_or_name, 'en')
+        lang = translate(lang_or_name, 'en').split(' ')[0]
         code = convert_lang_to_code(lang)
         try:
             params = 'NativeLanguage=' + code
